@@ -10,16 +10,18 @@ export default class Sidebar extends Component {
             <div className="text-center">
               <div className="author-img" style={{backgroundImage: 'url(images/casual_headshot.jpg)'}} />
               <h1 id="colorlib-logo"><a href="index.html">Fin Elliott</a></h1>
-              <span className="email"><i className="icon-mail"></i> <a href="mailto:fin.elliott@gmail.com" target="_blank" rel="noopener noreferrer">Email</a></span>
+              <span className="email"><i className="icon-mail"></i> <a href="mailto:fin.elliott@gmail.com" target="_blank" rel="noopener noreferrer">Email me</a></span>
             </div>
             <nav id="colorlib-main-menu" role="navigation" className="navbar">
               <div id="navbar" className="collapse">
                 <ul>
                   {/* <li className="active"><a href="#home" data-nav-section="home">Introduction</a></li> */}
                   <li><a href="#about" data-nav-section="about">About</a></li>
-                  {/*<li><a href="#" data-nav-section="projects">Projects</a></li>
-                  <li><a href="#" data-nav-section="blog">Blog</a></li>*/}
-                  <li><a href="#timeline" data-nav-section="timeline">Progress</a></li>
+                  <li><a href="#" data-nav-section="projects">Projects</a></li>
+                  {/*<li><a href="#" data-nav-section="blog">Blog</a></li>*/}
+                  <li><a href="#timeline" data-nav-section="timeline">Timeline</a></li>
+                  <li><a href="#timeline" data-nav-section="timeline">Looking forward</a></li>
+                  <li><a href="#timeline" data-nav-section="timeline">References</a></li>
                 </ul>
               </div>
             </nav>

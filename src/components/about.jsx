@@ -12,9 +12,9 @@ export default class About extends Component {
                 <div className="col-md-12">
                     <div className="about-desc">
                     {/* <span className="heading-meta">About Me</span> */}
-                    <h2 className="colorlib-heading">Who Am I?</h2>
-                    <p>My name is Fin. I am the Product Manager at RoboTire, a mid-stage startup in the automotive industry working to automate all things vehicle maintenance. I love exploring new technologies and often amazed by the progress we as a human species have mad so far in the recent years (apart from the headphone-jack part!!)</p>
-                    <p>I have started reflecting my ideas and thougths through the medium of words recently so spelling and grammer mistaks are very often.You can write me back if you spot any and don't want to live anymore :P </p>
+                    <h2 className="colorlib-heading">About me</h2>
+                    <p>My name is Fin. I am the Product Manager at RoboTire, a startup in the automotive industry working to automate all things vehicle maintenance. I've been passionate about technology and vehicles for my whole life, and have had a great time working in the field for the past two years.</p>
+                    <p>I attended Boston College for a Computer Science and Chinese degree and graduated in 2019. Before joining RoboTire in June of 2021, I helped launch a robotics startup in the marine industry called MarkSetBot, that you can find out about <a href="https://marksetbot.com" target="_blank" rel="noopener noreferrer">here!</a></p>
                     </div>
                 </div>
                 </div>
@@ -26,8 +26,8 @@ export default class About extends Component {
         <div className="colorlib-narrow-content">
             <div className="row">
             <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                <span className="heading-meta">What I do?</span>
-                <h2 className="colorlib-heading">Here are some of my expertise</h2>
+                {/* <span className="heading-meta">What I do?</span> */}
+                <h2 className="colorlib-heading">What I'm passionate about</h2>
             </div>
             </div>
             <div className="row row-pt-md">
@@ -37,7 +37,7 @@ export default class About extends Component {
                     <i className="icon-bulb" />
                 </span>
                 <div className="desc">
-                    <h3>Web Development </h3>
+                    <h3>0-to-1 Product Development </h3>
                     <p>I have experience building websites and chrome extentions using JavaScript,React,HTML,CSS</p>
                 </div>
                 </div>
@@ -48,7 +48,7 @@ export default class About extends Component {
                     <i className="icon-phone3" />
                 </span>
                 <div className="desc">
-                    <h3>Data Structures & Algorithms</h3>
+                    <h3>Customer feedback collection and product improvement</h3>
                     <p>As coming from the CS background, I have good grasp over fundamental concepts of DSA</p>
                 </div>
                 </div>
@@ -59,7 +59,7 @@ export default class About extends Component {
                     <i className="icon-data" />
                 </span>
                 <div className="desc">
-                    <h3>Dev Ops</h3>
+                    <h3>Building collaborative environments</h3>
                     <p>I am pursuing my internship with DevOps team at Juniper and working with tools like Jenkins, Docker, K8s</p>
                 </div>
                 </div>
